@@ -1,0 +1,19 @@
+import java.util.Arrays;
+public class tuto {
+    public static void main(String[] args) {
+        int[] num = {1, 3, 23, 9, 18};
+        reversearray(num);
+    }
+    static void reversearray(int[] array) {
+        int start = 0;
+        int end = array.length - 1;
+            while (start <+end) {
+                int temp = array[start];
+                array[start] = array[end];
+                array[end] = temp;
+                start += 1;
+                end -= 1;
+        }
+        System.out.println(Arrays.toString(array));
+    }
+}

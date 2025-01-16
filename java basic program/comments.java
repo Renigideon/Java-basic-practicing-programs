@@ -6,11 +6,11 @@ Class Main{
         System.out.println(a+b);*/
 
 
-       ""
+       
        //-----> single line command
        /*
        content  -----> multi-line command
        */
-       "" 
+       
     }
 }
